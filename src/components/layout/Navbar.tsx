@@ -4,6 +4,7 @@ import { Menu, X, Trophy, Gamepad2, Users, Newspaper, LayoutDashboard, LogOut, C
 import { useState, useEffect, useRef } from 'react';
 import { cn } from '../../lib/utils';
 import { useModals } from '../ui/ModalContext';
+import logo from '../../logo.svg';
 
 const navItems = [
   { name: 'Startseite', path: '/', icon: Gamepad2 },
@@ -49,13 +50,7 @@ export function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2 group">
-          {/* Logo-Platzhalter: Ersetze den div-Block durch <img src="/logo.png" alt="ESports School League" className="h-10 w-auto" /> sobald ein Logo vorhanden ist */}
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-violet-500 to-fuchsia-600 flex items-center justify-center shadow-[0_0_20px_rgba(124,58,237,0.4)] group-hover:shadow-[0_0_30px_rgba(124,58,237,0.6)] transition-all">
-            <Trophy className="w-5 h-5 text-white" />
-          </div>
-          <span className="font-display font-bold text-xl tracking-tight text-white">
-            ESports<span className="text-violet-400"> School League</span>
-          </span>
+          <img src={logo} alt="ESports School League" className="h-25 w-auto" />
         </Link>
 
         {/* Desktop Nav */}

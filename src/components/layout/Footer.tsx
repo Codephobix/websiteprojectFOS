@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Trophy, Twitter, Instagram, Youtube, Twitch } from 'lucide-react';
+import logo from '../../logo.svg';
 
 export function Footer() {
   return (
@@ -8,13 +9,8 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
           <div className="col-span-1 md:col-span-1">
             <Link to="/" className="flex items-center gap-2 mb-6">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-violet-500 to-fuchsia-600 flex items-center justify-center">
-                <Trophy className="w-4 h-4 text-white" />
-              </div>
-              {/* Logo-Platzhalter: Ersetze durch <img src="/logo.png" alt="ESports School League" className="h-8 w-auto" /> sobald vorhanden */}
-              <span className="font-display font-bold text-lg tracking-tight text-white">
-                ESports<span className="text-violet-400"> School League</span>
-              </span>
+              <img src={logo} alt="ESports School League" className="h-25 w-auto" />
+
             </Link>
             <p className="text-zinc-400 text-sm leading-relaxed mb-6">
               Die offizielle Plattform für ESports-Turniere an Schulen. Verbinde dich mit Mitschülern, gründe Teams und nimm an Turnieren teil.

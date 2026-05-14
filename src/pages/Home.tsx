@@ -55,9 +55,9 @@ export function Home() {
             </div>
 
             <h1 className="text-6xl md:text-8xl font-display font-black tracking-tighter mb-6 leading-[0.9]">
-              DIE BÜHNE FÜR <br />
+              Aus Talent <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 via-fuchsia-500 to-orange-500 pr-2">
-                SCHUL-CHAMPIONS
+                wird ein Team!
               </span>
             </h1>
 
