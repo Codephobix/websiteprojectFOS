@@ -1,6 +1,6 @@
 # ESports School League
 
-Offizielle Demo-Plattform der ESports School League für Schülerinnen und Schüler.
+DEMO des Schulprojekts zur fiktiven ESports School League.
 
 ## Tech Stack
 
@@ -9,7 +9,7 @@ Offizielle Demo-Plattform der ESports School League für Schülerinnen und Schü
 - **Tailwind CSS v4** — Styling
 - **React Router v7** — Routing
 - **Motion** — Animationen
-- **localStorage** — Demo-Datenpersistenz
+- **localStorage** — Statt Datenbank
 
 ## Lokal starten
 
@@ -20,7 +20,7 @@ npm install
 npm run dev
 ```
 
-Wenn das Projekt heruntergeladen wurde, läuft die Seite über [http://localhost:3000](http://localhost:3000).
+Wenn das Projekt heruntergeladen wurde und npm installiert und gestartet wurde läuft die Seite über [http://localhost:3000](http://localhost:3000).
 
 ## Build
 
