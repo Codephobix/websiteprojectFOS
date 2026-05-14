@@ -20,7 +20,7 @@ npm install
 npm run dev
 ```
 
-Die Seite läuft auf [http://localhost:3000](http://localhost:3000).
+Wenn das Projekt heruntergeladen wurde, läuft die Seite über [http://localhost:3000](http://localhost:3000).
 
 ## Build
 
